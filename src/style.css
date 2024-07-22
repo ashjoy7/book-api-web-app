@@ -10,16 +10,67 @@ body {
     background-color: #1E90FF;
     color: white;
     padding: 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 2.5rem;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
   }
   
   nav a {
     color: white;
     text-decoration: none;
-    margin: 0 1rem;
+    margin: 0 1.5rem;
+    font-size: 1.2rem;
   }
   
   nav a:hover {
     text-decoration: underline;
+  }
+  
+  #search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+  
+  #search-input {
+    padding: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: 60%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  #search-button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    background-color: #1E90FF;
+    color: white;
+    cursor: pointer;
+    margin-left: 0.5rem; /* Space between input and button */
+    height: 100%; /* Ensure button height matches input height */
+  }
+  
+  #search-button:hover {
+    background-color: #1C86EE;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
   }
   
   .card {
@@ -27,6 +78,8 @@ body {
     padding: 1rem;
     margin: 1rem;
     border-radius: 8px;
+    background-color: #fff;
+    width: 300px;
   }
   
   button {
@@ -40,5 +93,10 @@ body {
   
   button:hover {
     background-color: #FF4500;
+  }
+  
+  h2 {
+    color: #1E90FF;
+    font-size: 1.5rem;
   }
   

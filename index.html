@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Book API Web App</title>
-  <link rel="stylesheet" href="/style.css">
+  <title>Ashley Egan's Book Review API</title>
+  <link rel="stylesheet" href="/src/style.css">
 </head>
 <body>
   <header>
+    <h1>Ashley Egan's Book Review API</h1>
     <nav>
       <a href="#" id="home-link">Home</a>
       <a href="#" id="favorites-link">Favorites</a>
@@ -16,8 +17,12 @@
     </nav>
   </header>
   <main id="main-content">
+    <div id="search-container">
+      <input type="text" id="search-input" placeholder="Search books...">
+      <button id="search-button">Search</button>
+    </div>
     <!-- Content will be dynamically loaded here -->
   </main>
-  <script type="module" src="/main.mjs"></script>
+  <script type="module" src="/src/main.mjs"></script>
 </body>
 </html>
