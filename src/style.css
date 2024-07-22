@@ -1,0 +1,44 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #F8F8FF;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #1E90FF;
+    color: white;
+    padding: 1rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 8px;
+  }
+  
+  button {
+    background-color: #FF6347;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #FF4500;
+  }
+  
